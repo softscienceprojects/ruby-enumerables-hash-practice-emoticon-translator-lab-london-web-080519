@@ -43,5 +43,5 @@ def get_english_meaning(path, emoticon)
   lookup = load_library(path)["get_meaning"]
 
 
-
+  lookup
 end
