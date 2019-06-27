@@ -17,9 +17,9 @@ def load_library(path)
      myresult["get_meaning"][b[1]] = a
      myresult["get_emoticon"][b[0]] = b[1]
    end
-
   myresult
 end
+
 
 def get_japanese_emoticon(path, emoticon)
   #load_library(path)["get_emoticon"].include?(emoticon)
