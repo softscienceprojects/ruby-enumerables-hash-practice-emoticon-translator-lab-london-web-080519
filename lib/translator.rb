@@ -41,6 +41,7 @@ end
 def get_english_meaning(path, emoticon)
   # code goes here
   lookup = load_library(path)["get_meaning"]
-
-  lookup.include?(emoticon)
+  answer = ""
+  if lookup.include?(emoticon)
+    answer = lookup[value]
 end
