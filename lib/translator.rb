@@ -31,11 +31,11 @@ def get_japanese_emoticon(path, emoticon)
     if emoticon == k
      p emoticon + " k: #{k} - v: #{v}"
      answer = k[v]
-     break
    end
   # else "Sorry, that emoticon was not found"
 
   end
+  answer
 end
 
 def get_english_meaning(path, emoticon)
