@@ -26,9 +26,9 @@ def get_japanese_emoticon(path, emoticon)
   #calls on load library and gives it the argument of the file path
 
   #load_library(path)["get_emoticon"].include?(emoticon)
-
+  answer = ""
   load_library(path)["get_emoticon"].each do |k, v|
-    answer = ""
+    
      p "k: #{k} - v: #{v}"
   # else "Sorry, that emoticon was not found"
 
