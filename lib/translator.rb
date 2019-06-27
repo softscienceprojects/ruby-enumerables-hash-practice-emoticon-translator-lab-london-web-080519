@@ -31,7 +31,7 @@ def get_japanese_emoticon(path, emoticon)
     if k.include?(emoticon) == false
       "sorry"
     end
-    answer = v
+  #  answer = v
    end
   # else "Sorry, that emoticon was not found"
 
