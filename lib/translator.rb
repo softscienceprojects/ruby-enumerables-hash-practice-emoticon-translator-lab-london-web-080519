@@ -45,4 +45,5 @@ def get_english_meaning(path, emoticon)
   if lookup.include?(emoticon)
     answer = lookup[value]
   end
+  answer
 end
