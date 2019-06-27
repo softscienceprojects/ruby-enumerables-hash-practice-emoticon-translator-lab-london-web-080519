@@ -45,9 +45,10 @@ def get_english_meaning(path, emoticon)
   lookup.each do |k,v|
     if k == emoticon
       answer = v
-    if k != emoticon
-        answer = "Sorry, that emoticon was not found"
     end
+  end
+  if answer == ""
+    answer = "Sorry, that emoticon was not found"
   end
   answer
 end
