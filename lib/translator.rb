@@ -31,7 +31,7 @@ def get_japanese_emoticon(path, emoticon)
 
      p "en: #{k} - jp: #{v}"
   # else "Sorry, that emoticon was not found"
-    
+
   end
 end
 
