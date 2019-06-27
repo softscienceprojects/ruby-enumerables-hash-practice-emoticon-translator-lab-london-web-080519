@@ -40,6 +40,6 @@ end
 
 def get_english_meaning(path, emoticon)
   # code goes here
-  load_library(path)["get_meaning"]
+  p load_library(path)["get_meaning"]
 
 end
