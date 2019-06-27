@@ -32,7 +32,7 @@ def get_japanese_emoticon(path, emoticon)
     end
   end
   answer
-  load_library(path)["get_emoticon"]
+  load_library(path)["get_emoticon"].values
 end
 
 
