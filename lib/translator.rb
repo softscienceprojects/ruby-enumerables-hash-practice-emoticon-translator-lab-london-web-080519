@@ -42,8 +42,10 @@ def get_english_meaning(path, emoticon)
   # code goes here
   lookup = load_library(path)["get_meaning"]
   answer = ""
-  if lookup.include?(emoticon)
-    answer = lookup[value]
+  lookup.each do |k,v|
+  if k == emotivon
+    answer = v
+  end
   end
   answer
 end
