@@ -29,7 +29,7 @@ def get_japanese_emoticon(path, emoticon)
   answer = ""
   load_library(path)["get_emoticon"].each do |k, v|
     if k.include?(emoticon) == true
-       answer = v
+       answer = k[v]
     end
 
    end
