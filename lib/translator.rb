@@ -28,8 +28,10 @@ def get_japanese_emoticon(path, emoticon)
   #load_library(path)["get_emoticon"].include?(emoticon)
   answer = ""
   load_library(path)["get_emoticon"].each do |k, v|
-
+    if emoticon == k
      p emoticon + " k: #{k} - v: #{v}"
+     answer = k[v]
+   end
   # else "Sorry, that emoticon was not found"
 
   end
