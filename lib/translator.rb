@@ -30,7 +30,10 @@ def get_japanese_emoticon(path, emoticon)
       # answer = "Sorry, that emoticon was not found"
     end
   end
-  p answer
+  if answer == nil
+    answer = "Sorry, that emoticon was not found"
+  end
+answer
 end
 
 
